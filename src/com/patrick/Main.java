@@ -1,15 +1,28 @@
 package com.patrick;
-
+import java.util.*;
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Main {
 
     static Scanner stringScanner = new Scanner(System.in);
     static Scanner numberScanner = new Scanner(System.in);
     public static void main(String[] args) {
 
-        int data[] = new int[3];
+
+
+
+/*        int secretNumber = 8;
+        System.out.println("Enter a number between 0 and 10. ");
+        //Initially used .nextString which broke it.
+        int userGuess = numberScanner.nextInt();
+        while (userGuess!=(secretNumber)){
+            System.out.println("Wrong.  Access denied.");
+            System.out.println("Try again. ");
+            userGuess = numberScanner.nextInt();
+        }
+        System.out.println("Correct. ");*/
+
+/*        int data[] = new int[3];
         data[0] = 10 ;
         data[1] = 15 ;
         data[2] = 8 ;
@@ -24,7 +37,7 @@ public class Main {
         }
         for (int x=0; x<classrooms.length;x++){
             System.out.println(classrooms[x]);
-        }
+        }*/
 
 
 
